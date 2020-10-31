@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <title>Learn to code - for free | Codeacademy.com</title>
 </head>
 <body>
+    
     <header>
         <nav>
             <ul class="header-nav1">
@@ -25,16 +28,51 @@
                     </svg>
                     </a>
                 </li>
-           <li> <a href="#">Catalog</a></li>
-           <li> <a href="#">Pricing</a></li>
-           <li> <a href="#">For business</a></li>
+           <li> <a href="#" class="header-links">Catalog</a></li>
+           <li> <a href="#" class="header-links">Pricing</a></li>
+           <li> <a href="#" class="header-links">For business</a></li>
             </ul>
             <ul class="header-nav2">
-                <li><a href="#" class="btn">Log in</a></li>
-                <li><a href="#" class="btn btn-full">Sign up</a></li>
+                <li><a href="#" class="btn" class="header-links">Log in</a></li>
+                <li><a href="#" class="btn btn-full"  class="header-links">Sign up</a></li>
             </ul>
         </nav>
     
     </header>
+     
+    <main>
+        <section class="section-intro">
+            <div class="enternce">
+                <h1>
+                    Join the millions
+                    <br>
+                    Learning to code 
+                    <br>
+                    with code academy
+                </h1>
+            </div>
+            <img src="./images/6468a0de2ccbc914148505fec167b939.webp" alt="" class="code-student">
+            <img src="./images/daecb491e565bc6b7390756d03fc1ee1.svg" alt="" class="hamburger">
+            <img src="./images/f059ec67021b3dfeea1b6cb2eb373683.svg" alt="" class="three-dots">
+            <img src="./images/3ce816c669e3c8a946f0895049a01e44.svg" alt="" class="triangerl">
+            <img src="./images/5c537833d79f7065497b565eaa7bca64.svg" alt="" class="square">
+        </section>
+        <section class="section-form">
+            <form>
+                <h2>get started for free</h2>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Start coding now</button>
+            </form>
+            <p>By signing up for Codecademy, you agree to Codecademy's <a href="#">Terms of Service</a> &<a href="#"> Privacy Policy</a>.</p>
+        </section>
+    </main>
 </body>
 </html>
