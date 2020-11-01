@@ -11,6 +11,11 @@ body {
     color: #484848;
 }
 
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
 /************* Header *************/
 
 header {
@@ -76,6 +81,12 @@ svg {
 
 /************* Main *************/
 
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 main {
     display: flex;
     justify-content: space-between;
@@ -87,12 +98,23 @@ main {
     flex-basis: 50%;
 }
 
-/************* secound section *************/
+/************* Form section *************/
 
 .section-form {
     flex-basis: 50%;
 }
 
+.form-control {
+    width: 50%;
+}
+
+.tos {
+    font-size: .88rem;
+}
+
+.btn-primary{
+    width: 50%;
+}
 /************* FOOTER *************/
 
 footer {
