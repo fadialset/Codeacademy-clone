@@ -92,3 +92,71 @@ main {
 .section-form {
     flex-basis: 50%;
 }
+
+/************* FOOTER *************/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+/************* Footer features *************/
+
+.footer-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-features a:visited, .footer-features a:link {
+    color: #484848;
+    text-decoration: none;
+}
+
+.footer-features a:hover {
+    color: #5788fa;
+    transition: .5s ease;
+}
+
+/************* Footer info *************/
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+}
+
+.footer-info-details ul {
+    display: flex;
+    justify-content: start;
+    margin-left: 7rem;
+}
+
+.footer-info-details li {
+    margin: 1rem;
+}
+
+.copy-rights {
+    margin-right: 3rem;
+}
+
+.footer-info-details a, .copy-rights {
+    font-size: 1rem;
+}
+
+.divider::after {
+    content: "|";
+    font: 2rem;
+}
