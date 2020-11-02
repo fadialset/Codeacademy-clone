@@ -85,7 +85,6 @@ svg {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin-bottom: 20rem;
 }
 
 main {
@@ -106,8 +105,8 @@ main {
     background-color: #6400E4;
     color: #FFF;
     z-index: 3;
-
 }
+
 .code-student {
     position: absolute;
     top: 50%;
@@ -177,6 +176,62 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
+/************* CARD SECTION *************/
+
+.section-card {
+    position: relative;
+    background-color: #f1f3fe;
+    padding: 1rem 1rem 4rem;
+}
+
+.section-card-image {
+    position: absolute;
+    bottom: 50%;
+    left: 35%;
+}
+
+.section-card-content {
+    position: absolute;
+    bottom: 50%;
+    left: 8%;
+    padding: 1.3rem 0;
+    background-color: #6400E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.section-card-content h3 {
+    color: #FFF;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+span {
+    color: #ffd500;
+}
+
+.section-card-contnet-p {
+    color: #fff;
+    margin: 2rem;
+}
+
+.quiz-btn:link, .quiz-btn:visited {
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #FFD500;
+    border-radius: 10rem;
+    background-color: #FFD500;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.quiz-btn:hover{
+    box-shadow: 1px 1px black;
+}
 /************* FOOTER *************/
 
 footer {
