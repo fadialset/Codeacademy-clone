@@ -363,3 +363,36 @@ footer h3 {
     content: "|";
     font: 2rem;
 }
+
+/*********************** MEDIA QUEREY **************************/
+
+@media only screen and (max-width: 767px) {
+    body {}
+    .header-nav1 {
+        overflow: hidden;
+    }
+    .section-intro {
+        display: none;
+    }
+    .section-card-image {
+        display: none;
+    }
+    .get-started-section-towellipse-img, .get-started-section-ellipse-img, .get-started-section-toggles-img {
+        display: none;
+    }
+    .get-started-section-btn {
+        display: block;
+    }
+    .footer-features {
+        display: flex;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+    }
+    .footer-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .copy-rights{
+        margin-left: 10rem;
+    }
+}
