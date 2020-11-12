@@ -367,12 +367,14 @@ footer h3 {
 /*********************** MEDIA QUEREY **************************/
 
 @media only screen and (max-width: 767px) {
-    body {}
     .header-nav1 {
         overflow: hidden;
     }
     .section-intro {
         display: none;
+    }
+    main{
+        margin-bottom: 20rem;
     }
     .section-card-image {
         display: none;
@@ -392,7 +394,10 @@ footer h3 {
         display: flex;
         flex-wrap: wrap;
     }
-    .copy-rights{
+    .copy-rights {
         margin-left: 10rem;
+    }
+    .bg-image {
+        max-width: 50%;
     }
 }
