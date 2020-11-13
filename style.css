@@ -373,11 +373,20 @@ footer h3 {
     .section-intro {
         display: none;
     }
-    main{
+    main {
         margin-bottom: 20rem;
     }
+    .section-form {
+        margin: 0 auto;
+    }
+   
     .section-card-image {
         display: none;
+    }
+    .section-card-content {
+        position: absolute;
+        bottom: 50%;
+        left: 0;
     }
     .get-started-section-towellipse-img, .get-started-section-ellipse-img, .get-started-section-toggles-img {
         display: none;
